@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, {useEffect, useState} from "react";
-import {AiFillCheckCircle} from 'react-icons/AI'
+import {AiFillCheckCircle} from 'react-icons/ai'
 import "./main.css"
 import { Flex, Header, Button } from "../components";
 import illustration_desktop from "../assets/images/illustration-sign-up-desktop.svg"
