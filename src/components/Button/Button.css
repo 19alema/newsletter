@@ -1,0 +1,12 @@
+.btn_container {
+    margin-top: .8em;
+}
+button {
+    width: 100%;
+    background-color: var(--DarkSlateGrey);
+    color: var(--White);
+    padding: 1em 20px;
+    border: 2px solid var(--DarkSlateGrey);
+    border-radius: 8px;
+    cursor: pointer;
+}

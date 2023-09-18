@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex > p {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.check_icon {
+    color: var(--Tomato);
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+    .section_left {
+        padding: 0;
+    }
+    .check_icon {
+        font-size: 1.5em;
+    }
+    .flex > p {
+        margin-left: 10px;
+        font-size: 1em;
+    }
+    .input_email {
+        padding: .8em 20px;
+    }
+}

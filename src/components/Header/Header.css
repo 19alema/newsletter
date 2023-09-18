@@ -1,0 +1,13 @@
+.Title {
+    font-size: 2.8em;
+    font-weight: 900;
+    color: var(--CharcoalGrey);
+    letter-spacing: 1.5px;
+    margin: .5em 0;
+}
+
+@media (max-width: 768px) {
+    .Title {
+        font-size: 2em;
+    }
+}
